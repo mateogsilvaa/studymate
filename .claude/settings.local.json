@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/mateo/.claude/plugins/cache/ui-ux-pro-max-skill/ui-ux-pro-max/2.5.0/.claude/skills/ui-ux-pro-max/**)",
+      "Bash(python3 scripts/search.py \"student productivity academic planner SaaS dark modern\" --design-system -p \"STUDYMATE\" -f markdown)",
+      "Bash(python3 scripts/search.py \"student productivity academic planner SaaS dark modern\" --design-system -p \"STUDYMATE\")",
+      "PowerShell(python --version; where python)",
+      "PowerShell(python -c \"import sys; print\\(sys.executable\\)\")",
+      "PowerShell(New-Item *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)"
+    ]
+  }
+}
